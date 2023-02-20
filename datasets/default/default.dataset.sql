@@ -9,6 +9,7 @@ CREATE TABLE "LoyaltyProgram" (
 	PRIMARY KEY (id)
 );
 INSERT INTO "LoyaltyProgram" VALUES(1,'Primary loyalty program for NTO','','True','NTO Insider','Active');
+INSERT INTO "LoyaltyProgram" VALUES(2,'Extraction testing','','False','Test Loyalty Program','Active');
 CREATE TABLE "LoyaltyProgramCurrency" (
 	id INTEGER NOT NULL, 
 	"IsActive" VARCHAR(255), 
@@ -27,6 +28,7 @@ CREATE TABLE "LoyaltyProgramCurrency" (
 );
 INSERT INTO "LoyaltyProgramCurrency" VALUES(1,'True','0.05','Points','NonQualifying','2','Years','Fixed','None','False','True','1','');
 INSERT INTO "LoyaltyProgramCurrency" VALUES(2,'True','','Tier Points','Qualifying','','','','','False','False','1','1');
+INSERT INTO "LoyaltyProgramCurrency" VALUES(3,'True','0.01','test currency','NonQualifying','6','Months','Activity','','False','False','2','');
 CREATE TABLE "LoyaltyTierGroup" (
 	id INTEGER NOT NULL, 
 	"Description" VARCHAR(255), 

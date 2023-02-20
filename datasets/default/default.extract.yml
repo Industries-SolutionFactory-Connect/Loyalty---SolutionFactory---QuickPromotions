@@ -6,20 +6,6 @@ extract:
     - IsPrimary
     - Name
     - Status
-  LoyaltyTierGroup:
-    fields:
-    - Description
-    - ExtendExpiration
-    - IsActive
-    - IsHiddenToMembers
-    - IsPrimary
-    - Name
-    - QpResetDate
-    - QpResetFrequency
-    - QpResetPeriod
-    - TierModel
-    - TierPeriodQuantity
-    - TierPeriodUnit
   LoyaltyProgramCurrency:
     fields:
     - IsActive
@@ -34,3 +20,17 @@ extract:
     - LoyaltyProgramId
     - LoyaltyTierGroupId
     - IsPrimary
+  LoyaltyTierGroup:
+    fields:
+    - Description
+    - ExtendExpiration
+    - IsActive
+    - IsHiddenToMembers
+    - IsPrimary
+    - Name
+    - QpResetDate
+    - QpResetFrequency
+    - QpResetPeriod
+    - TierModel
+    - TierPeriodQuantity
+    - TierPeriodUnit
