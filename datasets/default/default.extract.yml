@@ -1,0 +1,36 @@
+extract:
+  LoyaltyProgram:
+    fields:
+    - Description
+    - EscrowPeriod
+    - IsPrimary
+    - Name
+    - Status
+  LoyaltyProgramCurrency:
+    fields:
+    - IsActive
+    - CostperUnit
+    - Name
+    - CurrencyType
+    - ExpiryPeriodFrequency
+    - ExpiryPeriodUnit
+    - ExpiryModel
+    - ExtendExpiration
+    - HasEscrow
+    - LoyaltyProgramId
+    - LoyaltyTierGroupId
+    - IsPrimary
+  LoyaltyTierGroup:
+    fields:
+    - Description
+    - ExtendExpiration
+    - IsActive
+    - IsHiddenToMembers
+    - IsPrimary
+    - Name
+    - QpResetDate
+    - QpResetFrequency
+    - QpResetPeriod
+    - TierModel
+    - TierPeriodQuantity
+    - TierPeriodUnit

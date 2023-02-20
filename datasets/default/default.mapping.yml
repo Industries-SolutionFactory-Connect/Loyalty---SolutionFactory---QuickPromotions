@@ -1,0 +1,50 @@
+Insert LoyaltyProgram:
+  sf_object: LoyaltyProgram
+  table: LoyaltyProgram
+  fields:
+  - Description
+  - EscrowPeriod
+  - IsPrimary
+  - Name
+  - Status
+Insert LoyaltyTierGroup:
+  sf_object: LoyaltyTierGroup
+  table: LoyaltyTierGroup
+  fields:
+  - Description
+  - ExtendExpiration
+  - IsActive
+  - IsHiddenToMembers
+  - IsPrimary
+  - Name
+  - QpResetDate
+  - QpResetFrequency
+  - QpResetPeriod
+  - TierModel
+  - TierPeriodQuantity
+  - TierPeriodUnit
+  lookups:
+    LoyaltyProgramId:
+      table: LoyaltyProgram
+      key_field: LoyaltyProgramId
+Insert LoyaltyProgramCurrency:
+  sf_object: LoyaltyProgramCurrency
+  table: LoyaltyProgramCurrency
+  fields:
+  - IsActive
+  - CostperUnit
+  - Name
+  - CurrencyType
+  - ExpiryPeriodFrequency
+  - ExpiryPeriodUnit
+  - ExpiryModel
+  - ExtendExpiration
+  - HasEscrow
+  - IsPrimary
+  lookups:
+    LoyaltyProgramId:
+      table: LoyaltyProgram
+      key_field: LoyaltyProgramId
+    LoyaltyTierGroupId:
+      table: LoyaltyTierGroup
+      key_field: LoyaltyTierGroupId
