@@ -1,126 +1,23 @@
 extract:
-  Account:
+  LoyaltyProgram:
     fields:
     - Description
-    - Fax
+    - EscrowPeriod
+    - IsPrimary
     - Name
-    - AccountNumber
-    - Phone
-    - Rating
-    - Site
-    - AccountSource
-    - Type
-    - AnnualRevenue
-    - PersonAssistantName
-    - PersonAssistantPhone
-    - BillingCity
-    - BillingCountry
-    - BillingGeocodeAccuracy
-    - BillingLatitude
-    - BillingLongitude
-    - BillingState
-    - BillingStreet
-    - BillingPostalCode
-    - PersonBirthdate
-    - Jigsaw
-    - PersonDepartment
-    - PersonDoNotCall
-    - PersonEmail
-    - PersonEmailBouncedDate
-    - PersonEmailBouncedReason
-    - PersonHasOptedOutOfEmail
-    - NumberOfEmployees
-    - PersonHasOptedOutOfFax
-    - FirstName
-    - PersonHomePhone
-    - PersonIndividualId
-    - Industry
-    - LastName
-    - PersonLeadSource
-    - PersonMailingCity
-    - PersonMailingCountry
-    - PersonMailingGeocodeAccuracy
-    - PersonMailingLatitude
-    - PersonMailingLongitude
-    - PersonMailingState
-    - PersonMailingStreet
-    - PersonMailingPostalCode
-    - PersonMobilePhone
-    - PersonOtherCity
-    - PersonOtherCountry
-    - PersonOtherGeocodeAccuracy
-    - PersonOtherLatitude
-    - PersonOtherLongitude
-    - PersonOtherPhone
-    - PersonOtherState
-    - PersonOtherStreet
-    - PersonOtherPostalCode
-    - Ownership
-    - ParentId
-    - RecordTypeId
-    - Salutation
-    - ShippingCity
-    - ShippingCountry
-    - ShippingGeocodeAccuracy
-    - ShippingLatitude
-    - ShippingLongitude
-    - ShippingState
-    - ShippingStreet
-    - ShippingPostalCode
-    - Sic
-    - SicDesc
-    - TickerSymbol
-    - PersonTitle
-    - Website
-  Individual:
+    - Status
+  LoyaltyTierGroup:
     fields:
-    - LastName
-  RecordType:
-    fields:
+    - IsActive
     - Description
-    - DeveloperName
+    - ExtendExpiration
+    - IsHiddenToMembers
+    - LoyaltyProgramId
+    - TierPeriodUnit
+    - TierPeriodQuantity
+    - IsPrimary
+    - QpResetDate
+    - QpResetFrequency
+    - QpResetPeriod
     - Name
-    - SobjectType
-  Contact:
-    fields:
-    - AccountId
-    - AssistantName
-    - AssistantPhone
-    - Birthdate
-    - Fax
-    - Phone
-    - Description
-    - Jigsaw
-    - Department
-    - DoNotCall
-    - Email
-    - EmailBouncedDate
-    - EmailBouncedReason
-    - HasOptedOutOfEmail
-    - HasOptedOutOfFax
-    - FirstName
-    - HomePhone
-    - IndividualId
-    - LastName
-    - LeadSource
-    - MailingCity
-    - MailingCountry
-    - MailingGeocodeAccuracy
-    - MailingLatitude
-    - MailingLongitude
-    - MailingState
-    - MailingStreet
-    - MailingPostalCode
-    - MobilePhone
-    - OtherCity
-    - OtherCountry
-    - OtherGeocodeAccuracy
-    - OtherLatitude
-    - OtherLongitude
-    - OtherPhone
-    - OtherState
-    - OtherStreet
-    - OtherPostalCode
-    - ReportsToId
-    - Salutation
-    - Title
+    - TierModel
