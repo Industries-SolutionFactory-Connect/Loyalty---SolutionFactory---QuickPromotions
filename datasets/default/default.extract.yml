@@ -1,0 +1,23 @@
+extract:
+  LoyaltyProgram:
+    fields:
+    - Description
+    - EscrowPeriod
+    - IsPrimary
+    - Name
+    - Status
+  LoyaltyTierGroup:
+    fields:
+    - IsActive
+    - Description
+    - ExtendExpiration
+    - IsHiddenToMembers
+    - LoyaltyProgramId
+    - TierPeriodUnit
+    - TierPeriodQuantity
+    - IsPrimary
+    - QpResetDate
+    - QpResetFrequency
+    - QpResetPeriod
+    - Name
+    - TierModel
